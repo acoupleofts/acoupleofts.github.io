@@ -897,7 +897,7 @@ body {
 }
 
 .icon-cog {
-    background-image: url('/my-jekyll-site/img/cog.webp');
+    background-image: url('/img/cog.webp');
     background-position: center center;
     background-size: contain; /* Ensures the entire image is scaled to fit */
     background-repeat: no-repeat; 
@@ -906,7 +906,7 @@ body {
 }
 
 .icon-flask {
-    background-image: url('/my-jekyll-site/img/flask-2.webp');
+    background-image: url('/img/flask-2.webp');
     background-position: center center;
     background-size: contain; /* Ensures the entire image is scaled to fit */
     background-repeat: no-repeat; 
@@ -915,7 +915,7 @@ body {
 }
 
 .icon-graph {
-    background-image: url('/my-jekyll-site/img/graph.webp');
+    background-image: url('/img/graph.webp');
     background-position: center center;
     background-size: contain; /* Ensures the entire image is scaled to fit */
     background-repeat: no-repeat; 
