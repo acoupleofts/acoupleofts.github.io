@@ -131,6 +131,9 @@ fieldset[disabled] .btn-primary.active {
     border-color: #5e4ecb;
     border-radius: 3px;
     text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+    text-wrap: balance;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -327,7 +330,7 @@ header .intro-text .intro-heading {
 }
 
 header .intro-image {
-    padding-bottom: 25px;
+    border-radius: 25px
 }
 
 @media(min-width:768px) {
