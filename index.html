@@ -64,10 +64,10 @@
     </aside>
     <main>
       <article>
-        <h2>Price the Match</h2>
+        <h2><a href="https://pricethematch.com/">Price the Match</a></h2>
         <p>A personal project combining two of my loves (dog, girlfriend and future baby aside!): football and data. Start from what betting exchanges already believe about a football match, add the stories you think it has missed, and see how much of your view the price already contains.</p>
         <ul>
-          <li>Built and run an exchange collector since August 2026: adaptive polling toward kickoff, request-weight budgeting against the API's limits, append-only gzipped raw capture with a derived SQLite mirror, streamed off-box to Cloudflare R2.</li>
+          <li>Built an exchange collector: adaptive polling toward kickoff, request-weight budgeting against the API's limits, append-only gzipped raw capture with a derived SQLite mirror, streamed off-box to Cloudflare R2.</li>
           <li>Wrote the pricing layer from scratch: Dixon-Coles goal model fitted to the exchange's own markets with a hand-rolled Nelder-Mead, separate de-vigs for bookmaker and exchange prices, and every output carrying its error bar.</li>
           <li>Shipped a public web UI where you weight your own narratives against the market and log the view, so the model can be graded against actual xG after the match. One dict, two renderers: the browser computes nothing.</li>
           <li>Owned every layer solo: ingestion, modelling, API, front end, hosting, monitoring, CI and the docs.</li>
@@ -92,8 +92,8 @@
           <li>Built and owned the AWS data platform end to end: Airbyte, Redshift, dbt, Superset.</li>
           <li>Added tests and monitoring to the dbt project so upstream issues were caught before they hit exec dashboards.</li>
           <li>Partnered with the CFO and growth leads on forecasting, segmentation and marketing performance, feeding directly into budget allocation.</li>
-          <li>Set up office hours and a triage rhythm so a one-person function shipped against the biggest levers rather than the loudest requests.</li>
-          <li>Retention and duplicate-account analysis that changed onboarding and subscription mechanics.</li>
+          <li>Set up office hours and a triage meeting so a one-person function worked on the highest impact work rather than the loudest requests.</li>
+          <li>Ran retention and duplicate-account analysis that changed onboarding and subscription mechanics.</li>
         </ul>
         <p class="stack">dbt · Airbyte · Redshift · Superset · AWS · Python</p>
       </article>
